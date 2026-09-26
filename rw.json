@@ -1,0 +1,96 @@
+{
+  "app": {
+    "name": "EduPiFlow",
+    "tagline": "Uburezi nta mipaka, ubwishyu nta nzitizi",
+    "disclaimer": "Iyi porogaramu NTABWO ifitanye isano, yemewe cyangwa yashyizweho na Pi Core Team."
+  },
+  "auth": {
+    "authenticate": "Kwemeza ukoresheje Pi",
+    "authenticating": "Kurangiza kwemeza...",
+    "failed": "Kwemeza byanze. Fungura EduPiFlow muri Pi Browser.",
+    "welcome": "Murakaza neza, {{username}}"
+  },
+  "payment": {
+    "policy": "Ubwishyu bwose bwishyurwa gusa muri Pi Coin.",
+    "display_note": "Amafaranga y'u Rwanda (RWF) na USD bigaragazwa gusa ku buryo bwo kugereranya.",
+    "pay_now": "Kwishyura ubu",
+    "amount_in_pi": "{{amount}} π",
+    "amount_in_rwf": "{{amount}} RWF",
+    "amount_in_usd": "${{amount}} USD",
+    "processing": "Turimo kwishyura...",
+    "success": "Kwishyura byagenze neza!",
+    "failed": "Kwishyura byanze. Ongera ugerageze.",
+    "cancelled": "Kwishyura byahagaritswe.",
+    "escrow_notice": "Amafaranga abikwa mu bubiko mu masaha 48."
+  },
+  "plans": {
+    "monthly": "Ukwezi",
+    "quarterly": "Amezi atatu",
+    "semester": "Igihembwe",
+    "annual": "Umwaka"
+  },
+  "deposit": {
+    "title": "Ingwate",
+    "parent_explanation": "Ingwate yawe ingana n'ukwezi kumwe. Isubizwa yose niba ubwishyu bwose bwishyuwe ku gihe.",
+    "school_explanation": "Ingwate y'ikigo ingana na 10% by'amafaranga yose y'umwaka. Isubizwa yose niba ibisabwa byose byujujwe.",
+    "refund_conditions": "Ibikubiye mu gusubiza"
+  },
+  "link": {
+    "request": "Saba guhuza",
+    "pending": "Tegereza kwemeza kw'ishuri",
+    "confirmed": "Guhuza byemejwe",
+    "rejected": "Guhuza byanzwe",
+    "transfer_fee": "Amafaranga yo kwimuka: 0.5 μπ"
+  },
+  "scholarship": {
+    "title": "Ufadhili",
+    "apply": "Saba ufadhili",
+    "donate": "Tanga inkunga y'ufadhili",
+    "matched": "Twishimiye! Wahujwe n'ufadhili.",
+    "impact": "Ingaruka zawe",
+    "anonymous": "Tanga nta kwerekana izina"
+  },
+  "academic": {
+    "report_card": "Ripoti y'ishuri",
+    "sbt_issued": "Ikimenyetso cy'amasomo cyatanzwe",
+    "verify": "Emeza ikimenyetso cy'amasomo",
+    "grade": "Amanota",
+    "average": "Impuzandengo"
+  },
+  "dispute": {
+    "raise": "Tanga ikibazo",
+    "mediation": "Gukemura bidahorereje",
+    "tribunal": "Urukiko rusange",
+    "appeal": "Tanga ubujurire",
+    "verdict": "Icyemezo"
+  },
+  "notification": {
+    "payment_due_7_days": "Ubwishyu bwawe buzasohoka mu minsi 7.",
+    "payment_due_3_days": "Ubwishyu bwawe buzasohoka mu minsi 3.",
+    "payment_due_1_day": "Ubwishyu bwawe buzasohoka ejo.",
+    "late_payment_warning": "Ubwishyu bwawe bwatindiye. Igihano cya 0.1 μπ ku munsi kirakoreshwa.",
+    "access_suspension_warning": "Kwinjira kwawe mu ripoti bizahagarikwa.",
+    "school_alert": "Ishuri ryamenyeshejwe ko utishyuye ku gihe.",
+    "contract_termination_warning": "Amasezerano yawe azahagarikwa mu minsi 3.",
+    "contract_renewal_upcoming": "Amasezerano yawe azongera mu minsi 30.",
+    "deposit_refund_processed": "Gusubiza ingwate yawe byakozwe."
+  },
+  "languages": {
+    "en": "Icyongereza",
+    "fr": "Igifaransa",
+    "rw": "Ikinyarwanda",
+    "sw": "Igiswahili"
+  },
+  "common": {
+    "yes": "Yego",
+    "no": "Oya",
+    "cancel": "Hagarika",
+    "confirm": "Emeza",
+    "save": "Bika",
+    "back": "Subira",
+    "next": "Komeza",
+    "loading": "Turimo...",
+    "error": "Habaye ikibazo.",
+    "success": "Byagenze neza!"
+  }
+}
