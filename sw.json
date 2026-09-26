@@ -1,0 +1,96 @@
+{
+  "app": {
+    "name": "EduPiFlow",
+    "tagline": "Elimu Bila Mipaka, Malipo Bila Msuguano",
+    "disclaimer": "Programu hii HAIHUSIANI, haikubaliwi, au haikuundwa na Pi Core Team."
+  },
+  "auth": {
+    "authenticate": "Thibitisha kwa Pi",
+    "authenticating": "Inathibitisha...",
+    "failed": "Uthibitishaji umeshindwa. Tafadhali fungua EduPiFlow ndani ya Pi Browser.",
+    "welcome": "Karibu, {{username}}"
+  },
+  "payment": {
+    "policy": "Malipo yote hulipwa kwa Pi Coin pekee.",
+    "display_note": "RWF na USD zinaonyeshwa kwa marejeleo tu.",
+    "pay_now": "Lipa Sasa",
+    "amount_in_pi": "{{amount}} π",
+    "amount_in_rwf": "{{amount}} RWF",
+    "amount_in_usd": "${{amount}} USD",
+    "processing": "Inachakata malipo...",
+    "success": "Malipo yamefanikiwa!",
+    "failed": "Malipo yameshindwa. Tafadhali jaribu tena.",
+    "cancelled": "Malipo yameghairiwa.",
+    "escrow_notice": "Fedha zinashikiliwa kwa saa 48."
+  },
+  "plans": {
+    "monthly": "Kila Mwezi",
+    "quarterly": "Kila Robo Mwaka",
+    "semester": "Muhula",
+    "annual": "Mwaka"
+  },
+  "deposit": {
+    "title": "Amana ya Usalama",
+    "parent_explanation": "Amana yako ni sawa na malipo ya mwezi mmoja. Inarudishwa kikamilifu ikiwa malipo yote yanalipwa kwa wakati.",
+    "school_explanation": "Amana yako ya taasisi ni 10% ya mapato yako ya mwaka. Inarudishwa kikamilifu ikiwa majukumu yote yanatimizwa.",
+    "refund_conditions": "Masharti ya kurudisha"
+  },
+  "link": {
+    "request": "Omba Kuunganisha",
+    "pending": "Inasubiri uthibitisho wa shule",
+    "confirmed": "Uunganisho umethibitishwa",
+    "rejected": "Uunganisho umekataliwa",
+    "transfer_fee": "Ada ya uhamisho: 0.5 μπ"
+  },
+  "scholarship": {
+    "title": "Ufadhili",
+    "apply": "Omba Ufadhili",
+    "donate": "Changia Mfuko wa Ufadhili",
+    "matched": "Hongera! Umeunganishwa na ufadhili.",
+    "impact": "Athari yako",
+    "anonymous": "Changia bila jina"
+  },
+  "academic": {
+    "report_card": "Ripoti ya Shule",
+    "sbt_issued": "Tokeni ya Kitaaluma Imetolewa",
+    "verify": "Thibitisha Tokeni ya Kitaaluma",
+    "grade": "Daraja",
+    "average": "Wastani"
+  },
+  "dispute": {
+    "raise": "Inua Mgogoro",
+    "mediation": "Usuluhishi wa Kiotomatiki",
+    "tribunal": "Mahakama ya Jamii",
+    "appeal": "Pinga Rufaa",
+    "verdict": "Hukumu"
+  },
+  "notification": {
+    "payment_due_7_days": "Malipo yako yanadaiwa katika siku 7.",
+    "payment_due_3_days": "Malipo yako yanadaiwa katika siku 3.",
+    "payment_due_1_day": "Malipo yako yanadaiwa kesho.",
+    "late_payment_warning": "Malipo yako yamechelewa. Adhabu ya 0.1 μπ kwa siku inatumika.",
+    "access_suspension_warning": "Ufikiaji wako wa ripoti utasimamishwa.",
+    "school_alert": "Shule imearifiwa kuhusu malipo yako ya kuchelewa.",
+    "contract_termination_warning": "Mkataba wako utasitishwa katika siku 3.",
+    "contract_renewal_upcoming": "Mkataba wako utaongezwa katika siku 30.",
+    "deposit_refund_processed": "Kurudisha amana yako kumeshindwa."
+  },
+  "languages": {
+    "en": "Kiingereza",
+    "fr": "Kifaransa",
+    "rw": "Kinyarwanda",
+    "sw": "Kiswahili"
+  },
+  "common": {
+    "yes": "Ndio",
+    "no": "Hapana",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "save": "Hifadhi",
+    "back": "Rudi",
+    "next": "Ifuatayo",
+    "loading": "Inapakia...",
+    "error": "Hitilafu imetokea.",
+    "success": "Mafanikio!"
+  }
+}
