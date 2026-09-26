@@ -1,0 +1,96 @@
+{
+  "app": {
+    "name": "EduPiFlow",
+    "tagline": "Education Without Borders, Payments Without Friction",
+    "disclaimer": "This app is NOT affiliated with, endorsed by, or created by the Pi Core Team."
+  },
+  "auth": {
+    "authenticate": "Authenticate with Pi",
+    "authenticating": "Authenticating...",
+    "failed": "Authentication failed. Please open EduPiFlow inside Pi Browser.",
+    "welcome": "Welcome, {{username}}"
+  },
+  "payment": {
+    "policy": "All payments are settled exclusively in Pi Coin.",
+    "display_note": "RWF and USD equivalents are shown for reference only.",
+    "pay_now": "Pay Now",
+    "amount_in_pi": "{{amount}} π",
+    "amount_in_rwf": "{{amount}} RWF",
+    "amount_in_usd": "${{amount}} USD",
+    "processing": "Processing payment...",
+    "success": "Payment successful!",
+    "failed": "Payment failed. Please try again.",
+    "cancelled": "Payment cancelled.",
+    "escrow_notice": "Funds are held in escrow for 48 hours."
+  },
+  "plans": {
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "semester": "Semester",
+    "annual": "Annual"
+  },
+  "deposit": {
+    "title": "Security Deposit",
+    "parent_explanation": "Your deposit equals one monthly installment. It is fully refundable if all payments are on time.",
+    "school_explanation": "Your institutional deposit is 10% of your annual expected revenue. It is fully refundable if all obligations are met.",
+    "refund_conditions": "Refund conditions"
+  },
+  "link": {
+    "request": "Request to Link",
+    "pending": "Pending school confirmation",
+    "confirmed": "Link confirmed",
+    "rejected": "Link rejected",
+    "transfer_fee": "Transfer fee: 0.5 μπ"
+  },
+  "scholarship": {
+    "title": "Scholarship",
+    "apply": "Apply for Scholarship",
+    "donate": "Donate to Scholarship Fund",
+    "matched": "Congratulations! You have been matched with a scholarship.",
+    "impact": "Your impact",
+    "anonymous": "Donate anonymously"
+  },
+  "academic": {
+    "report_card": "Report Card",
+    "sbt_issued": "Academic Token Issued",
+    "verify": "Verify Academic Token",
+    "grade": "Grade",
+    "average": "Average"
+  },
+  "dispute": {
+    "raise": "Raise a Dispute",
+    "mediation": "Automatic Mediation",
+    "tribunal": "Community Tribunal",
+    "appeal": "File an Appeal",
+    "verdict": "Verdict"
+  },
+  "notification": {
+    "payment_due_7_days": "Your payment is due in 7 days.",
+    "payment_due_3_days": "Your payment is due in 3 days.",
+    "payment_due_1_day": "Your payment is due tomorrow.",
+    "late_payment_warning": "Your payment is late. A penalty of 0.1 μπ per day applies.",
+    "access_suspension_warning": "Your access to report cards will be suspended.",
+    "school_alert": "The school has been alerted about your late payment.",
+    "contract_termination_warning": "Your contract will be terminated in 3 days.",
+    "contract_renewal_upcoming": "Your contract will renew in 30 days. Opt out if needed.",
+    "deposit_refund_processed": "Your deposit refund has been processed."
+  },
+  "languages": {
+    "en": "English",
+    "fr": "French",
+    "rw": "Kinyarwanda",
+    "sw": "Swahili"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "error": "An error occurred.",
+    "success": "Success!"
+  }
+}
