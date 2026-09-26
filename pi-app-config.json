@@ -1,0 +1,73 @@
+{
+  "app_name": "EduPiFlow",
+  "app_tagline": "Education Without Borders, Payments Without Friction",
+  "app_version": "1.0.0",
+  "app_description": "Intelligent tuition fee management and payment platform on Pi Network for nursery, primary, secondary, and higher education.",
+  "app_icon": "assets/icon.png",
+  "app_category": "education",
+  "developer": {
+    "name": "EduPiFlow",
+    "kyc_status": "submitted",
+    "contact": "contact@edupiflow.app"
+  },
+  "pi_network": {
+    "sdk_version": "2.0",
+    "sandbox": true,
+    "network": "testnet",
+    "scopes": ["payments", "wallet_address"],
+    "payment_memos": {
+      "tuition_monthly": "EPF-TUITION-M",
+      "tuition_quarterly": "EPF-TUITION-T",
+      "tuition_semester": "EPF-TUITION-S",
+      "tuition_annual": "EPF-TUITION-A",
+      "parent_deposit": "EPF-CAUTION-P",
+      "school_deposit": "EPF-CAUTION-E",
+      "scholarship_donation": "EPF-SCHOLAR-D",
+      "scholarship_receipt": "EPF-SCHOLAR-R",
+      "scholarship_pool": "EPF-SCHOLAR-POOL",
+      "commission": "EPF-COMMISSION",
+      "reserve": "EPF-RESERVE",
+      "academic_token": "EPF-TOKEN-AC",
+      "deposit_refund": "EPF-REFUND-C",
+      "penalty": "EPF-PENALTY",
+      "transfer": "EPF-TRANSFER",
+      "arbitration": "EPF-ARBITRATION"
+    }
+  },
+  "currencies": {
+    "settlement": "Pi",
+    "display": ["RWF", "USD", "Pi"],
+    "exchange_rate_source": "BNR",
+    "gcv_pi_to_usd": 314159,
+    "micro_pi_per_pi": 1000000
+  },
+  "languages": ["en", "fr", "rw", "sw"],
+  "default_language": "en",
+  "academic_calendar": {
+    "default_start": "September",
+    "default_end": "June",
+    "configurable_per_region": true
+  },
+  "modules": [
+    "EduConnect",
+    "FlowPay",
+    "AcademicLedger",
+    "PiScholarship",
+    "PiCommunityTribunal"
+  ],
+  "features": {
+    "offline_mode": true,
+    "soulbound_tokens": true,
+    "scholarship_engine": true,
+    "community_tribunal": true,
+    "escrow_hours": 48,
+    "grace_period_days": 7
+  },
+  "distribution": {
+    "school": 0.92,
+    "promoter": 0.05,
+    "scholarship_pool": 0.02,
+    "reserve": 0.01
+  },
+  "disclaimer": "This app is NOT affiliated with, endorsed by, or created by the Pi Core Team."
+}
