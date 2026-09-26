@@ -1,0 +1,96 @@
+{
+  "app": {
+    "name": "EduPiFlow",
+    "tagline": "L'éducation sans frontières, des paiements sans friction",
+    "disclaimer": "Cette application n'est PAS affiliée, approuvée ou créée par la Pi Core Team."
+  },
+  "auth": {
+    "authenticate": "S'authentifier avec Pi",
+    "authenticating": "Authentification en cours...",
+    "failed": "Échec de l'authentification. Veuillez ouvrir EduPiFlow dans Pi Browser.",
+    "welcome": "Bienvenue, {{username}}"
+  },
+  "payment": {
+    "policy": "Tous les paiements sont réglés exclusivement en Pi Coin.",
+    "display_note": "Les équivalents en RWF et USD sont affichés à titre indicatif uniquement.",
+    "pay_now": "Payer maintenant",
+    "amount_in_pi": "{{amount}} π",
+    "amount_in_rwf": "{{amount}} RWF",
+    "amount_in_usd": "${{amount}} USD",
+    "processing": "Traitement du paiement...",
+    "success": "Paiement réussi !",
+    "failed": "Échec du paiement. Veuillez réessayer.",
+    "cancelled": "Paiement annulé.",
+    "escrow_notice": "Les fonds sont conservés en séquestre pendant 48 heures."
+  },
+  "plans": {
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel",
+    "semester": "Semestriel",
+    "annual": "Annuel"
+  },
+  "deposit": {
+    "title": "Caution de garantie",
+    "parent_explanation": "Votre caution équivaut à une mensualité. Elle est entièrement remboursable si tous les paiements sont effectués à temps.",
+    "school_explanation": "Votre caution institutionnelle représente 10% de votre revenu annuel attendu. Elle est entièrement remboursable si toutes les obligations sont respectées.",
+    "refund_conditions": "Conditions de remboursement"
+  },
+  "link": {
+    "request": "Demander la liaison",
+    "pending": "En attente de confirmation de l'école",
+    "confirmed": "Liaison confirmée",
+    "rejected": "Liaison rejetée",
+    "transfer_fee": "Frais de transfert : 0,5 μπ"
+  },
+  "scholarship": {
+    "title": "Bourse d'études",
+    "apply": "Demander une bourse",
+    "donate": "Faire un don au fonds de bourses",
+    "matched": "Félicitations ! Vous avez été mis en relation avec une bourse.",
+    "impact": "Votre impact",
+    "anonymous": "Faire un don anonyme"
+  },
+  "academic": {
+    "report_card": "Bulletin scolaire",
+    "sbt_issued": "Jeton académique émis",
+    "verify": "Vérifier le jeton académique",
+    "grade": "Note",
+    "average": "Moyenne"
+  },
+  "dispute": {
+    "raise": "Soulever un litige",
+    "mediation": "Médiation automatique",
+    "tribunal": "Tribunal communautaire",
+    "appeal": "Faire appel",
+    "verdict": "Verdict"
+  },
+  "notification": {
+    "payment_due_7_days": "Votre paiement est dû dans 7 jours.",
+    "payment_due_3_days": "Votre paiement est dû dans 3 jours.",
+    "payment_due_1_day": "Votre paiement est dû demain.",
+    "late_payment_warning": "Votre paiement est en retard. Une pénalité de 0,1 μπ par jour s'applique.",
+    "access_suspension_warning": "Votre accès aux bulletins sera suspendu.",
+    "school_alert": "L'école a été alertée de votre retard de paiement.",
+    "contract_termination_warning": "Votre contrat sera résilié dans 3 jours.",
+    "contract_renewal_upcoming": "Votre contrat sera renouvelé dans 30 jours. Désactivez si nécessaire.",
+    "deposit_refund_processed": "Votre remboursement de caution a été traité."
+  },
+  "languages": {
+    "en": "Anglais",
+    "fr": "Français",
+    "rw": "Kinyarwanda",
+    "sw": "Swahili"
+  },
+  "common": {
+    "yes": "Oui",
+    "no": "Non",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "back": "Retour",
+    "next": "Suivant",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue.",
+    "success": "Succès !"
+  }
+}
