@@ -1,0 +1,36 @@
+{
+  "name": "edupiflow-backend",
+  "version": "1.0.0",
+  "description": "EduPiFlow backend — Node.js/Express API for Pi Network integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["pi-network", "education", "tuition", "smart-contract", "blockchain"],
+  "author": "EduPiFlow",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "pg": "^8.11.0",
+    "redis": "^4.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.3.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "express-rate-limit": "^7.1.0",
+    "i18next": "^23.0.0",
+    "i18next-fs-backend": "^2.3.0",
+    "i18next-http-middleware": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
